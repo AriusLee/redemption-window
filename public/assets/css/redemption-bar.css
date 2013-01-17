@@ -134,6 +134,23 @@ iframe#redemption_iframe {
   text-decoration: underline;
 }
 
+#redemption_box #context_row .relative_space {
+  height: 160px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: -4px;
+}
+
+#redemption_box #context_row p {
+  margin: 0;
+  color: #333333;
+  font-size: 12px;
+  padding: 0 10px;
+  display: inline-block;
+  width: 220px;
+  vertical-align: middle;
+}
+
 #redemption_box .button_blue {
   text-decoration: none;
   border: 1px solid #3079ED;
@@ -146,6 +163,7 @@ iframe#redemption_iframe {
 }
 
 #redemption_box .button_red {
+  text-decoration: none;
   border: 1px solid #D14836;
   background: #DB4B39;
   color: #fff !important;
