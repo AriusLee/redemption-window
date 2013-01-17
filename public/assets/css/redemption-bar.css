@@ -138,7 +138,7 @@ iframe#redemption_iframe {
   height: 160px;
   vertical-align: middle;
   display: inline-block;
-  margin-right: -4px;
+  margin-right: -8px !important;
 }
 
 #redemption_box #context_row p {
