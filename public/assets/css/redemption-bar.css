@@ -151,6 +151,20 @@ iframe#redemption_iframe {
   vertical-align: middle;
 }
 
+#redemption_box #context_row p a {
+  color: #3366CC;
+  text-decoration: none;
+}
+
+#redemption_box #context_row p a:hover {
+  text-decoration: underline;
+}
+
+#redemption_box #context_row p .timer {
+  color: #FF0000;
+  font-style: italic;
+}
+
 #redemption_box .button_blue {
   text-decoration: none;
   border: 1px solid #3079ED;
@@ -160,6 +174,16 @@ iframe#redemption_iframe {
   padding: 5px 20px;
   font-size: 12px;
   border-radius: 2px;
+  display: inline-block;
+}
+
+#redemption_box .button_blue.full {
+  width: 198px;
+}
+
+#redemption_box .button_blue.half,
+#redemption_box .button_red.half {
+  width: 76px !important;
 }
 
 #redemption_box .button_red {
@@ -170,6 +194,7 @@ iframe#redemption_iframe {
   font-weight: bold;
   padding: 5px 20px;
   font-size: 12px;
+  display: inline-block;
   border-radius: 2px;
 }
 
